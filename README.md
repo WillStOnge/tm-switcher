@@ -1,3 +1,5 @@
+> This serves as a public archive of Brendan McGuire's TM Switcher application. The latest release can be found in the releases section. This software will not be receiving updates or bug fixes in the future. I am working on a rewrite/revamp of TM Switcher called ![TM Switcher Neo](https://github.com/WillStOnge/tm-switcher-neo). I hope to include even more features into this new version and build off of the great work that Brendan did.
+
 ![TM Switcher](https://user-images.githubusercontent.com/8839926/194345784-558c3ab7-8e0b-4d5d-a789-0ef14376bb56.png)
 
 TM Switcher will automatically manage robotics competition livestreams that use VEX Tournament Manager. It has been used successfully at dozens of events, including the [Kalahari Classic Signature Event](https://www.youtube.com/watch?v=Z_GiBfU6cU8), [Northeast Wisconsin VRC Showdown](https://www.youtube.com/watch?v=p9lWt9ZrTQw), Speedway Signature Event, Haunted Signature Event, and numerous state championships across multiple seasons.
