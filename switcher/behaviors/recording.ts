@@ -1,6 +1,6 @@
 import { Behavior } from "../behavior.js";
 import { getMatchName, getUnderlyingMatch, matchesEqual } from "../utils/match.js";
-import { FieldsetActiveMatchType, Match } from "vex-tm-client";
+import { FieldsetActiveMatchType, Match } from "@jerrylum/vex-tm-client";
 import { log } from "../utils/logging.js";
 
 export const RecordingBehavior: Behavior = async ({ associations, attachments, connections, recordingOptions }) => {

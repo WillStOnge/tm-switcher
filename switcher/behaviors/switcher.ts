@@ -1,4 +1,4 @@
-import { FieldsetAudienceDisplay } from "vex-tm-client";
+import { FieldsetAudienceDisplay } from "@jerrylum/vex-tm-client";
 import { Behavior } from "../behavior.js";
 
 export const CoreSwitcherBehavior: Behavior = async ({ associations, attachments, connections, audienceDisplayOptions, displayAssociations }) => {

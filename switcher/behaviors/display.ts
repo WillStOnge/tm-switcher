@@ -1,4 +1,4 @@
-import { FieldsetActiveMatchType, FieldsetAudienceDisplay, MatchRound } from "vex-tm-client";
+import { FieldsetActiveMatchType, FieldsetAudienceDisplay, MatchRound } from "@jerrylum/vex-tm-client";
 import { Behavior } from "../behavior.js";
 import { log } from "../utils/logging.js";
 

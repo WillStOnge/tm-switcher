@@ -1,7 +1,7 @@
 import { Behavior } from "../behavior.js";
 import { log } from "../utils/logging.js";
 import { getMatchName, getUnderlyingMatch, matchesEqual } from "../utils/match.js";
-import type { Match } from "vex-tm-client";
+import type { Match } from "@jerrylum/vex-tm-client";
 
 export const LoggingBehavior: Behavior = async ({ associations, attachments, connections, recordingOptions, handles }) => {
     const { obs } = connections;

@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-import { Client } from "vex-tm-client";
+import { Client } from "@jerrylum/vex-tm-client";
 import OBSWebSocket from "obs-websocket-js";
 import { log } from "./logging.js";
 import { promptReportIssue } from "./report.js";

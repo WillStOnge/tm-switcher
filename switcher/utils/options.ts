@@ -1,7 +1,7 @@
 import Ajv, { JSONSchemaType } from "ajv";
 import { SwitcherOptions } from "../behavior.js";
 import { readFile, writeFile } from "node:fs/promises";
-import { Client } from "vex-tm-client";
+import { Client } from "@jerrylum/vex-tm-client";
 
 import * as schema from "~data:schema/config.schema.json" assert { type: "json" };
 

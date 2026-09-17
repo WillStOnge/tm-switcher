@@ -1,5 +1,5 @@
-import { FieldsetActiveMatchType, FieldsetMatch } from "vex-tm-client";
-import { MatchRound, MatchTuple } from "vex-tm-client/out/Match";
+import { FieldsetActiveMatchType, FieldsetMatch } from "@jerrylum/vex-tm-client";
+import { MatchRound, MatchTuple } from "@jerrylum/vex-tm-client/out/Match";
 
 export function getMatchName(fieldsetMatch: FieldsetMatch) {
 

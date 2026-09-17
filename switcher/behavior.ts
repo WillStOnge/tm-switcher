@@ -7,7 +7,7 @@ import {
   RecordingOptions,
   TournamentAttachments,
 } from "./utils/input.js";
-import { Client } from "vex-tm-client";
+import { Client } from "@jerrylum/vex-tm-client";
 import { FileHandles } from "./utils/logging.js";
 
 export type SwitcherOptions = {

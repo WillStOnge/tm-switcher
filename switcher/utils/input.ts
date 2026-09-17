@@ -5,7 +5,7 @@ import {
   Division,
   Fieldset,
   FieldsetAudienceDisplay,
-} from "vex-tm-client";
+} from "@jerrylum/vex-tm-client";
 import OBSWebSocket from "obs-websocket-js";
 import { log } from "./logging.js";
 import { promptReportIssue } from "./report.js";
