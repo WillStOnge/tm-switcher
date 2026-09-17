@@ -56,6 +56,10 @@ jobs:
           npm --prefix host ci
       
       - name: npm switcher:build
+        env:
+          TM_SWITCHER_VEX_TM_CLIENT_ID: ${{ secrets.TM_SWITCHER_VEX_TM_CLIENT_ID }}
+          TM_SWITCHER_VEX_TM_CLIENT_SECRET: ${{ secrets.TM_SWITCHER_VEX_TM_CLIENT_SECRET }}
+          TM_SWITCHER_VEX_TM_EXPIRATION_DATE: ${{ secrets.TM_SWITCHER_VEX_TM_EXPIRATION_DATE }}
         run: |
             npm run switcher:build
 
